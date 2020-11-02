@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Header & Banner Design</title>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header  -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">
+                    Website 
+                </a>
+                <div class="menu-bar">
+                    <ul>
+                        <li>
+                            <a href="#"> Home </a>
+                        </li>
+                        <li>
+                            <a href="#"> About </a>
+                        </li>
+                        <li>
+                            <a href="#"> Services </a>
+                        </li>
+                        <li>
+                            <a href="#"> Portfolio </a>
+                        </li>
+                        <li>
+                            <a href="#"> Contact </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner  -->
+    <div class="slider">
+        <section class="banner">
+            <div class="container">
+                <div class="banner-text">
+                    <h1>Welcome to our website</h1>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora sunt aut, aliquid consectetur dolore laboriosam eveniet praesentium accusantium eaque maxime ab perferendis suscipit dolor reiciendis et in molestiae modi. Eos. </p>
+
+                    <div class="buttons">
+                        <a href="#">Watch Video</a>
+                        <a href="#">Browse More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="banner">
+            <div class="container">
+                <div class="banner-text">
+                    <h1>Welcome to our website</h1>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora sunt aut, aliquid consectetur dolore laboriosam eveniet praesentium accusantium eaque maxime ab perferendis suscipit dolor reiciendis et in molestiae modi. Eos. </p>
+
+                    <div class="buttons">
+                        <a href="#">Watch Video</a>
+                        <a href="#">Browse More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="banner">
+            <div class="container">
+                <div class="banner-text">
+                    <h1>Welcome to our website</h1>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora sunt aut, aliquid consectetur dolore laboriosam eveniet praesentium accusantium eaque maxime ab perferendis suscipit dolor reiciendis et in molestiae modi. Eos. </p>
+
+                    <div class="buttons">
+                        <a href="#">Watch Video</a>
+                        <a href="#">Browse More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+
+    <script>
+        $(function(){
+            $('.slider').slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true
+            });
+        });
+    </script>
+</body>
+</html>

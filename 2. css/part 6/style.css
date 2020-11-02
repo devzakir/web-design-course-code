@@ -1,0 +1,38 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;   
+}
+
+.box-container {
+    width: 800px;
+    margin: 200px auto 0;
+    height: 500px;
+    background-color: #f1e104;
+    position: relative;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: #0b61eb;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-50%, -50%);
+}
+
+.box2 {
+    left: 100%;
+    background-color: #e44d07;
+}
+
+.box3 {
+    top: 100%;
+    background-color: #0cb422;
+}
+
+.box4 {
+    top: 100%;
+    left: 100%;
+    background-color: #3515c5;
+}

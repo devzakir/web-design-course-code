@@ -1,0 +1,15 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+button {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}

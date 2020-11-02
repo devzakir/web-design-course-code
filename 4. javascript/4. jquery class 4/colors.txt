@@ -1,0 +1,3 @@
+Black Color - #1c212c
+Hover Color - #FD6179
+Gradient Color - #C33764, #1D2671

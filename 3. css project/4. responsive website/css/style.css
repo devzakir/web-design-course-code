@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s linear;
+} 
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* banner  */
+section.banner {
+    background-image: url('../img/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+section.banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-bar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-bar li a {
+    color: white;
+    padding: 50px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu-bar li a.active {
+    color: #fb2274;
+}
+
+.menu-bar li a:hover {
+    color: #fb2274;
+}
+
+.banner-text {
+    text-align: center;
+}
+
+.banner-text h1 {
+    font-size: 100px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.banner-text h1 p {
+    color: #fb2274;
+    width: 100%;
+    display: block;
+}
+
+.banner-paragraph { 
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+}
+
+
+/* About  */
+
+section.about {
+    padding: 100px 0;
+}
+
+.about-text {
+    text-align: center;
+    margin: 0px 150px;
+}
+
+.about-text h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.about-text p {
+    color: #a9a9a9;
+    font-size: 28px;
+}
+
+.about-text a {
+    margin-top: 40px;
+    padding: 20px 50px;
+    border: 2px solid #fb2274;
+    color: #fb2274;
+}
+
+.about-text a:hover{
+    background-color: #fb2274;
+    color: white;
+}
+
+/* Services  */
+section.services {
+    padding: 100px 0;
+}
+
+.service-title {
+    text-align: center;
+    margin: 0px 150px;
+    margin-bottom: 90px;
+}
+
+.service-title h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.service-title p {
+    color: #a9a9a9;
+    font-size: 28px;
+}
+
+.services-box-container {
+    display: flex;
+}
+.service-box {
+    width: calc(100% / 3);
+    text-align: center;
+    margin: 5px;
+}
+
+.service-box .image{
+    width: 100%;
+    min-height: 400px;
+} 
+
+.service-box .image img{
+    max-width: 100%;
+    min-height: 400px;
+    object-fit: cover;
+}
+
+.service-box h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+/* Contact  */
+section.contact {
+    padding: 100px 0;
+    position: relative;
+}
+
+.map {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%
+}
+
+.contact-form {
+    min-height: 500px;
+    margin-left: 50%;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+.contact-form h2 {
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    text-align: center;
+    color: #444444;
+}
+
+.contact-form .input-box input,
+.contact-form .input-box textarea,
+.contact-form  button
+{
+    padding: 20px 30px;
+    border: 1px solid #aaa;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.contact-form  button {
+    border-color: #fb2274;
+    color: #fb2274;
+    background-color: transparent;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+
+.contact-form button:hover {
+    background-color: #fb2274;
+    color: white;
+}
+
+

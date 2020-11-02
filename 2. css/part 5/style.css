@@ -1,0 +1,22 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid gray;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.box-container .box {
+    height: 100px;
+    width: 150px;
+    background-color: brown;
+    margin: 10px;
+    font-size: 25px;
+    padding: 10px;
+}

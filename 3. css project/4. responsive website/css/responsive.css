@@ -1,0 +1,187 @@
+@media(max-width:1199px){
+    .container {
+        width: 1024px;
+        margin: 0 auto;
+        padding: 0px 15px;
+        box-sizing: border-box;
+    }
+
+    .banner-text h1 {
+        font-size: 60px;
+    }
+
+    .menu-bar li a {
+        font-size: 16px;
+    }
+    section.banner {
+        height: 700px;
+    }
+
+    .services .image {
+        min-height: 400px;
+    }
+
+    .services .image img{
+        max-width: 100%;
+        min-height: 400px;
+        object-fit: cover;
+    }
+
+    section.about {
+        padding: 70px 0;
+    }
+
+    section.services {
+        padding: 70px 0;
+    }
+}
+
+@media(max-width:991px){
+    .container {
+        width: 768px;
+    }
+
+    .banner-text h1 {
+        font-size: 40px;
+    }
+
+    section.banner {
+        height: 600px;
+    }
+
+    .about-text {
+        margin: 0px 0px;
+    }
+
+    .about-text h2 {
+        font-size: 30px;
+    }
+
+    .about-text p {
+        font-size: 20px;
+    }
+
+    .about-text a {
+        padding: 15px 40px;
+    }
+
+    .service-title h2 {
+        font-size: 30px;
+    }
+
+    .service-title p {
+        font-size: 20px;
+    }
+    .service-title {
+        margin: 0px 0px;
+        margin-bottom: 50px;
+    }
+
+    .services .image {
+        min-height: 250px;
+    }
+
+    .services .image img {
+        min-height: 250px;
+    }
+
+    .service-box h3 {
+        font-size: 18px;
+    }
+
+    .map {
+        position: unset;
+        width: 100%;
+        min-height: 250px;
+        margin-bottom: 50px;
+    }
+
+    .map iframe {
+        width: 100%;
+        height: 250px;
+    }
+    section.contact {
+        padding: 50px 0;
+        position: unset;
+    }
+
+
+
+    .contact-form {
+        margin-left: 0;
+        padding-left: 0px;
+        margin: 0 100px;
+    }
+
+    .contact-form h2 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }   
+    
+    .contact-form .input-box input, .contact-form .input-box textarea, .contact-form button {
+        padding: 15px 20px;
+    }
+    .contact-form .input-box textarea {
+        max-height: 200px;
+    }
+}
+
+@media(max-width:768px){
+    .container {
+        max-width: 420px;
+    }
+    .services-box-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-box {
+        width: 300px;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .contact-form {
+        margin: 0;
+    }
+    
+    nav {
+        flex-wrap: wrap;
+    }
+
+    .menu-bar {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        background-color: black;
+        padding: 15px 0;
+
+    }
+    
+    
+    .menu-bar li a {
+        color: white;
+    }
+
+    nav .logo {
+        margin: 20px 0;
+    }
+
+    .menu-bar li a {
+        padding: 10px 20px;
+    }
+
+    .responsive-menu {
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        line-height: 40px;
+        color: white;
+        border: 1px solid white;
+    }
+
+
+
+}

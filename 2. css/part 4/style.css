@@ -1,0 +1,14 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.box {
+    width: 250px;
+    padding: 50px;
+    margin: 10px;
+    background-color: red;
+    display: inline-block;
+    border: 5px solid green;
+    color: white;
+}
